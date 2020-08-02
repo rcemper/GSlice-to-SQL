@@ -35,12 +35,12 @@ ID	Global	       Subscript	         Value
 1	^%SYS	("JOURNAL")	           0
 2	^%SYS	("JOURNAL","ALTDIR")	  "C:\InterSystems\IRIS\altjournal\"
 3	^%SYS	("JOURNAL","CURDIR")	  "C:\InterSystems\IRIS\mgr\journal\"
-4	^%SYS	("JOURNAL","CURRENT")	"1^C:\InterSystems\IRIS\mgr\journal\20200801.009"
-5	^%SYS	("JOURNAL","EXPSIZE")	0
-6	^%SYS	("JOURNAL","LAST")	  "1^C:\InterSystems\IRIS\mgr\journal\20200801.009"
+4	^%SYS	("JOURNAL","CURRENT")	 "1^C:\InterSystems\IRIS\mgr\journal\20200801.009"
+5	^%SYS	("JOURNAL","EXPSIZE") 	0
+6	^%SYS	("JOURNAL","LAST")	    "1^C:\InterSystems\IRIS\mgr\journal\20200801.009"
 7	^%SYS	("JOURNAL","LIFESPAN","FILE")	"2,2"
-8	^%SYS	("JOURNAL","MAXSIZE")	1073741824
-9	^%SYS	("JOURNAL","PREFIX")	""
+8	^%SYS	("JOURNAL","MAXSIZE")	 1073741824
+9	^%SYS	("JOURNAL","PREFIX")	  ""
 10	^%SYS	("JOURNAL","PURGED","c:\intersystems\iris\mgr\journal\20191104.001")	"2019-11-07 17:38:30"
 11	^%SYS	("JOURNAL","PURGED","c:\intersystems\iris\mgr\journal\20191104.002")	"2019-11-07 17:38:30"
 12	^%SYS	("JOURNAL","PURGED","c:\intersystems\iris\mgr\journal\20191104.003")	"2019-11-07 17:38:30"
