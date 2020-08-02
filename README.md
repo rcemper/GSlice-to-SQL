@@ -20,7 +20,7 @@ and as this is a table all kind of additional conditions apply.
 Be careful. 
 Correct quoting between SQL and Caché / Ensemble / IRIS could be a challenge
 
-Example:
+Example:   
 __select * from zrcc_G.dump where zrcc_G.Dump('^|"CACHE"|Sample.PersonD',2,4)=1__
 ~~~
 ID	       Global	        Subscript	      Value
