@@ -11,7 +11,7 @@ Property Value As %String;
 ClassMethod Global(
 	Global As %String = "",
 	StartSubscript As %String = "",
-	StopSubscript As %String = "") As %Boolean [ SqlProc ]
+	StopSubscript As %String = "") As %Boolean [ SqlName = Dump, SqlProc ]
 {
 #dim val as %String	= ""
 	kill ^||G.dumpD
