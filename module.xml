@@ -4,8 +4,8 @@
     <Module>
       <Name>global-dump-sql</Name>
       <Version>1.0.0</Version>
-      <Description>Multi-Line in Terminal Command</Description>
-      <Keywords>Terminal, COS</Keywords>
+      <Description>Show Global by SQL SELECT</Description>
+      <Keywords>SQL, Globals, COS</Keywords>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
        <Resource Name="zrcc.G.PKG"/>
