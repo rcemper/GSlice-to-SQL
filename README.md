@@ -13,7 +13,8 @@ requires 3 parameters:
 - the global name (required)   
 - the start subscript (optional)    
 - the stop subscript (optional)   
-Just providing the global name results in a full global dump.   
+
+Just providing the global name results in a full global dump.    
 Globals may also be provided with the extended reference   
 and as this is a table all kind of additional conditions apply. 
 
