@@ -56,7 +56,7 @@ Storage Default
 </Data>
 <DataLocation>^||G.dumpD</DataLocation>
 <DefaultData>dumpDefaultData</DefaultData>
-<IdLocation>^||dumpD</IdLocation>
+<IdLocation>^||G.dumpD</IdLocation>
 <IndexLocation>^||G.dumpI</IndexLocation>
 <StreamLocation>^||G.dumpS</StreamLocation>
 <Type>%Storage.Persistent</Type>
