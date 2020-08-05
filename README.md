@@ -50,7 +50,4 @@ ID	Global	       Subscript	         Value
 15	^%SYS	("JOURNAL","PURGED","c:\intersystems\iris\mgr\journal\20191105.001")	"2019-11-08 08:39:47"
 ~~~
 
-
-
-
-
+[Article in DC](https://community.intersystems.com/post/show-global-sql-select)
