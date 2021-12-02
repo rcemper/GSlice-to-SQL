@@ -37,7 +37,7 @@ file
 	set val=$e(^SPOOL(999999,1),5,*-2) kill ^SPOOL(999999)
 	set val=$replace($replace(val,$c(27)_"[1m",""),$c(27)_"[22m","")	
 	set ^||G.dumpD($i(^||G.dumpD))=$lb(Global,subs,val)
-	zw val
+	;zw val ;commented debug line
 	quit
 }
 
