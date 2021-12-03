@@ -9,16 +9,14 @@
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
        <Resource Name="zrcc.G.PKG"/>
-		<AfterInstallMessage>
+<AfterInstallMessage>
 Just providing the global name results in a full global dump.
 &#13;Example:
 &#13;USER>zn "irisapp"
 &#13;IRISAPP>d $system.SQL.Shell()
 &#13;SQL Command Line Shell
-&#13;...
-&#13;Enter <command>, 'q' to quit, '?' for help.
-&#13;[SQL]IRISAPP>>select TOP 5 * from zrcc_G.dump where zrcc_G.Dump('^%SYS','"JOURNAL"')=1
-		</AfterInstallMessage>
-	   </Module>
+&#13;... select TOP 5 * from zrcc_G.dump where zrcc_G.Dump('^%SYS','"JOURNAL"')=1
+</AfterInstallMessage>
+   </Module>
   </Document>
 </Export>
