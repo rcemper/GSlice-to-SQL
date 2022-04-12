@@ -3,7 +3,7 @@
   <Document name="global-dump-sql.ZPM">
     <Module>
       <Name>global-dump-sql</Name>
-      <Version>1.0.1</Version>
+      <Version>1.0.2</Version>
       <Description>Show Global by SQL SELECT</Description>
       <Keywords>SQL, Globals, COS</Keywords>
       <Packaging>module</Packaging>
@@ -12,7 +12,7 @@
 <AfterInstallMessage>
 Just providing the global name results in a full global dump.
 &#13;Example:
-&#13;USER>zn "irisapp"
+&#13;USER>zn "user"
 &#13;IRISAPP>d $system.SQL.Shell()
 &#13;SQL Command Line Shell
 &#13;... select TOP 5 * from zrcc_G.dump where zrcc_G.Dump('^%SYS','"JOURNAL"')=1
