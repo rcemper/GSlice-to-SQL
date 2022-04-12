@@ -1,9 +1,3 @@
- ~~~
- This is a coding example working on IRIS 2020.1 and on Caché 2018.1.3 
- It will not be kept in sync with new versions      
- It is also NOT serviced by InterSystems Support !   
-~~~ 
-
 Globals in Caché / Ensemble / IRIS are normally invisible over SQL access   
 This example shows how to overcome this limit.   
 Globals are presented as content of a table with their subscripts and  
@@ -50,4 +44,12 @@ ID	Global	       Subscript	         Value
 15	^%SYS	("JOURNAL","PURGED","c:\intersystems\iris\mgr\journal\20191105.001")	"2019-11-08 08:39:47"
 ~~~
 
-[Article in DC](https://community.intersystems.com/post/show-global-sql-select)
+[Article in DC](https://community.intersystems.com/post/show-global-sql-select)   
+
+[Demo Server SMP](https://global-dump-sql.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
+[Demo Server WebTerminal](https://global-dump-sql.demo.community.intersystems.com/terminal/)    
+        
+**Code Quality**   
+<img width="85%" src="
+https://openexchange.intersystems.com/mp/img/packages/671/screenshots/4bh7tyapellnv0cjgw34riapcfo.jpg
+">
