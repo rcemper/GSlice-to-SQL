@@ -45,9 +45,3 @@ ID	Global	       Subscript	         Value
 ~~~
 
 [Article in DC](https://community.intersystems.com/post/show-global-sql-select)   
-
-[Demo Server SMP](https://global-dump-sql.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
-[Demo Server WebTerminal](https://global-dump-sql.demo.community.intersystems.com/terminal/)    
-        
-**Code Quality**   
-<img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/1771/screenshots/fnozojwtkdvzlgnxitihv64qg0a.jpg">
