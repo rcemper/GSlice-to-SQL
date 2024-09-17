@@ -16,12 +16,12 @@ Be careful.
 Correct quoting between SQL and Caché / Ensemble / IRIS could be a challenge
 
 Example:   
-__select * from zrcc_G.dump where zrcc_G.Dump('^|"CACHE"|Sample.PersonD',2,4)=1__
+__select * from zrcc_G.dump where zrcc_G.Dump('^|"SAMPLES"|Sample.PersonD',2,4)=1__
 ~~~
 ID	       Global	        Subscript	      Value
-1	^|"CACHE"|Sample.PersonD	(2)	$lb("",792533244,"GlobaDynamics Holdings Inc.",64256,"C1787","Y5365","A5","A658","R1770","","Ironhorse,Alice D.","T3710","O3","I4011","W8367","557-37-6758",83059958205089661,"1841-01-02 00:00:00")
-2	^|"CACHE"|Sample.PersonD	(3)	$lb("",862705606,"TeleLateral Associates",34553,"V8155","T8918","X9","V8732","K1167","","Eisenstien,Peter E.","H208","C8","Q2015","Q3357","702-46-8467",57275722714358892,"2020-06-23 13:27:18")
-3	^|"CACHE"|Sample.PersonD	(4)	$lb("",677194559,"RoboSoft Group Ltd.",52738,"F4851","Z364","S8","O6888","O4367","","Eagleman,Clint C.","C8051","R6","V1659","C9814","664-33-8809",-53705244349891319,"2020-06-23 13:27:18")
+1	^|"SAMPLES"|Sample.PersonD	(2)	$lb("",792533244,"GlobaDynamics Holdings Inc.",64256,"C1787","Y5365","A5","A658","R1770","","Ironhorse,Alice D.","T3710","O3","I4011","W8367","557-37-6758",83059958205089661,"1841-01-02 00:00:00")
+2	^|"SAMPLES"|Sample.PersonD	(3)	$lb("",862705606,"TeleLateral Associates",34553,"V8155","T8918","X9","V8732","K1167","","Eisenstien,Peter E.","H208","C8","Q2015","Q3357","702-46-8467",57275722714358892,"2020-06-23 13:27:18")
+3	^|"SAMPLES"|Sample.PersonD	(4)	$lb("",677194559,"RoboSoft Group Ltd.",52738,"F4851","Z364","S8","O6888","O4367","","Eagleman,Clint C.","C8051","R6","V1659","C9814","664-33-8809",-53705244349891319,"2020-06-23 13:27:18")
 ~~~
 
 __select TOP 15 * from zrcc_G.dump where zrcc_G.Dump('^%SYS','"JOURNAL"')=1__   
