@@ -24,7 +24,7 @@ ID	       Global	        Subscript	      Value
 3	^|"SAMPLES"|Sample.PersonD	(4)	$lb("",677194559,"RoboSoft Group Ltd.",52738,"F4851","Z364","S8","O6888","O4367","","Eagleman,Clint C.","C8051","R6","V1659","C9814","664-33-8809",-53705244349891319,"2020-06-23 13:27:18")
 ~~~
 
-It's obvious for Esperts. Anhow: This examples fails if you don't have an installation of SAMPLES namespace at hands.
+It's obvious for COS-experts. Anyhow: This example fails if you don't have an installation of SAMPLES namespace at hands.
 
 __select TOP 15 * from zrcc_G.dump where zrcc_G.Dump('^%SYS','"JOURNAL"')=1__   
 ~~~
