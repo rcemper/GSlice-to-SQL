@@ -1,3 +1,6 @@
+<img src="https://community.intersystems.com/sites/default/files/inline/images/archived.gif" width=100></img>
+<b>&nbsp;no maintenance or update</b> 
+
 Globals in Caché / Ensemble / IRIS are normally invisible over SQL access   
 This example shows how to overcome this limit.   
 Globals are presented as content of a table with their subscripts and  
